@@ -2,9 +2,6 @@
 using Messages;
 using NServiceBus;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MultipleEndPointNSB
@@ -81,9 +78,9 @@ namespace MultipleEndPointNSB
             endpointInstance = await Endpoint.Start(configuration).ConfigureAwait(false);
         }
 
-        public async Task Stop()
+        public Task Stop()
         {
-            await endpointInstance.Stop();
+            return endpointInstance.Stop();
         }
     }
 }

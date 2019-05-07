@@ -1,31 +1,26 @@
-﻿using Messages;
-using NServiceBus;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System;
 using System.Threading.Tasks;
 
 namespace Publisher
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main()
         {
             Console.Title = "Publisher";
             ReloadServicePublisher reloadServicePublisher = new ReloadServicePublisher();
             ReAuthPublisher reAuthPublisher = new ReAuthPublisher();
-            await reloadServicePublisher.Start();
-            await reAuthPublisher.Start();
+            await reloadServicePublisher.Start().ConfigureAwait(false);
+            await reAuthPublisher.Start().ConfigureAwait(false);
             Console.WriteLine("Press any key to send messages, exept esc, esc is exit");
             while (Console.ReadKey().Key != ConsoleKey.Escape)
             {
-                await reloadServicePublisher.Send();
-                await reAuthPublisher.Send();
+                await reloadServicePublisher.Send().ConfigureAwait(false);
+                await reAuthPublisher.Send().ConfigureAwait(false);
                 Console.WriteLine("Sended");
             }
-            await reAuthPublisher.Stop();
-            await reloadServicePublisher.Stop();
+            await reAuthPublisher.Stop().ConfigureAwait(false);
+            await reloadServicePublisher.Stop().ConfigureAwait(false);
         }
     }
 }

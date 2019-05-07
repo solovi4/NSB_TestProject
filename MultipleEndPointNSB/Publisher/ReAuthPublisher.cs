@@ -1,9 +1,5 @@
 ﻿using Messages;
 using NServiceBus;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Publisher
@@ -11,10 +7,6 @@ namespace Publisher
     class ReAuthPublisher
     {
         private IEndpointInstance endpoint;
-        public ReAuthPublisher()
-        {
-
-        }
 
         private EndpointConfiguration ConfigureEndpoint()
         {
@@ -36,9 +28,9 @@ namespace Publisher
             return senderConfig;
         }
 
-        public async Task Send()
+        public Task Send()
         {
-            await endpoint.Publish(new ReAuthorizationEvent() { ContractId = 30, ServiceId = 40, SubscriberId = 50 }).ConfigureAwait(false);
+            return endpoint.Publish(new ReAuthorizationEvent() { ContractId = 30, ServiceId = 40, SubscriberId = 50 });
         }
 
         public async Task Start()
@@ -47,9 +39,9 @@ namespace Publisher
             endpoint = await Endpoint.Start(config).ConfigureAwait(false);
         }
 
-        public async Task Stop()
+        public Task Stop()
         {
-            await endpoint.Stop();
+            return endpoint.Stop();
         }
     }
 }
