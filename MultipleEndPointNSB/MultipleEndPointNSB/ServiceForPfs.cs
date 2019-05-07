@@ -11,7 +11,7 @@ namespace MultipleEndPointNSB
     {
         public void Send(ReloadServicesCommand reloadServicesCommand)
         {
-            Console.WriteLine($"ReloadServiceCommandRecieved {string.Concat(reloadServicesCommand.ServiceIds.Select(id => id.ToString() + " "))}");
+            Console.WriteLine($"ReloadServiceCommandRecieved {string.Concat(reloadServicesCommand.ServiceIds.Select(id => id.ToString() + " "))}!!!!!!!!!!!!!!!!!!");
         }
     }
 }

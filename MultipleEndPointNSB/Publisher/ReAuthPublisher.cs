@@ -21,8 +21,13 @@ namespace Publisher
             var senderConfig = new EndpointConfiguration("reAuth-sender");
             senderConfig.SendOnly();
 
+           
+
             var routing = senderConfig.UseTransport<MsmqTransport>().Routing();
             routing.RouteToEndpoint(typeof(ReAuthorizationEvent), "pfs.reauthorization");
+
+            var conventions = senderConfig.Conventions();
+            conventions.DefiningEventsAs(Messages.Conventions.IsEvent);
 
             senderConfig.UsePersistence<NHibernatePersistence>();
             senderConfig.UseSerialization<JsonSerializer>();

@@ -36,6 +36,9 @@ namespace MultipleEndPointNSB
         {
             var endpointConfiguration = new EndpointConfiguration(_queue);
 
+            var conventions = endpointConfiguration.Conventions();
+            conventions.DefiningEventsAs(Messages.Conventions.IsEvent);
+
             endpointConfiguration.UsePersistence<NHibernatePersistence>();
             var routing = endpointConfiguration.UseTransport<MsmqTransport>().Routing();
             routing.RegisterPublisher(typeof(ReAuthorizationEvent), _queue);
@@ -63,6 +66,8 @@ namespace MultipleEndPointNSB
                     var numberOfRetries = delayed.NumberOfRetries(_delayedNumberOfRetries);
                     numberOfRetries.TimeIncrease(_delayedTimeIncrease);
                 });
+
+
 
             if (_install)
                 endpointConfiguration.EnableInstallers();

@@ -21,8 +21,9 @@ namespace MultipleEndPointNSB
 
             builder.RegisterInstance(reAuthEndpointConfig);
             builder.RegisterInstance(pfsServiceEndPointConfig);
-            builder.RegisterModule(new ServiceModule());
             builder.RegisterModule(new HandlerModule());
+            builder.RegisterModule(new ServiceModule());
+            
             builder.RegisterModule(new ReceiverModule());
             
             var container = builder.Build();
@@ -30,8 +31,9 @@ namespace MultipleEndPointNSB
             var endPointPfsServices = container.Resolve<EndPointPfsServices>();
             var endPointReAuth = container.Resolve<EndPointReAuth>();
 
+            
             await endPointPfsServices.Start(container);
-            await endPointReAuth.Start(container);            
+            await endPointReAuth.Start(container);
 
             Console.ReadLine();
 

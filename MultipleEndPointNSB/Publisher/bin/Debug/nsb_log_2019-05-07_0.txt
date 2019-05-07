@@ -49,3 +49,335 @@ net localgroup "Пользователи системного монитора" 
 2019-05-07 11:02:09.919 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
 2019-05-07 11:02:09.928 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
 2019-05-07 11:02:09.940 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:34:15.055 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 11:34:15.178 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 11:34:15.185 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 11:34:16.965 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 11:34:17.002 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:34:17.010 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:34:17.017 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:34:17.148 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 11:34:17.155 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 11:34:17.726 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 11:34:17.737 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:34:17.745 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:34:17.753 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:38:11.033 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 11:38:11.155 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 11:38:11.162 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 11:38:13.136 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 11:38:13.171 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:38:13.178 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:38:13.184 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:38:13.317 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 11:38:13.324 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 11:38:14.094 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 11:38:14.105 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:38:14.112 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:38:14.119 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:22:07.283 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:22:07.445 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:22:07.454 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:22:09.405 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:22:09.447 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:22:09.457 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:22:09.465 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:22:09.620 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:22:09.628 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:22:11.480 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:22:11.491 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:22:11.499 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:22:11.507 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:23:03.702 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:23:03.823 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:23:03.831 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:23:05.690 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:23:05.731 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:23:05.737 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:23:05.744 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:23:05.875 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:23:05.882 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:23:06.489 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:23:06.503 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:23:06.513 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:23:06.522 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:33:56.258 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:35:00.270 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:35:32.194 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:36:37.733 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:36:37.853 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:36:37.861 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:36:55.257 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:36:55.452 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:36:55.464 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:36:57.517 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:36:57.559 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:36:57.568 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:36:57.576 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:40:05.994 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:40:06.124 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:40:06.131 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:40:06.661 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:40:06.699 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:40:06.706 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:40:06.714 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:40:52.950 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:40:53.081 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:40:53.093 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:40:55.143 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:40:55.189 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:40:55.195 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:40:55.203 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:14.134 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:41:14.260 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:41:14.269 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:41:16.301 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:41:16.344 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:16.352 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:16.362 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:49.063 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:41:49.224 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:41:49.232 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:41:51.197 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:41:51.240 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:51.248 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:51.257 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:51.416 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:41:51.425 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:41:52.487 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:41:52.502 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:52.510 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:41:52.520 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:03.047 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:42:03.210 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:42:03.219 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:42:05.388 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:42:05.428 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:05.437 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:05.444 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:05.596 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:42:05.604 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:42:06.184 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:42:06.197 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:06.207 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:06.215 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:28.184 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:42:28.320 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:42:28.331 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:42:30.348 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:42:30.389 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:30.397 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:30.406 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:30.563 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:42:30.571 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:42:31.844 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:42:31.856 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:31.864 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:42:31.877 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:44:44.062 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:44:44.253 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:44:44.265 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:44:46.214 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:44:46.264 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:44:46.273 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:44:46.282 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:44:46.439 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:44:46.446 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:44:46.470 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:44:46.480 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:44:46.491 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:44:46.498 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:46:28.834 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:46:29.005 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:46:29.013 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:46:30.975 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:46:31.015 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:46:31.023 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:46:31.031 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:46:31.188 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:46:31.196 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:46:31.221 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:46:31.233 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:46:31.242 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:46:31.248 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:32.895 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:48:33.018 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:48:33.029 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:48:34.821 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:48:34.859 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:34.867 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:34.875 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:35.058 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:48:35.065 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:48:35.087 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:48:35.099 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:35.105 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:35.111 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:56.839 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:48:56.988 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:48:56.999 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:48:58.940 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:48:58.980 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:58.987 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:58.995 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:48:59.154 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:48:59.161 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:49:25.310 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:49:25.327 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:49:25.341 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:49:25.360 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:50:15.729 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 12:50:15.870 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:50:15.877 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:50:17.707 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:50:17.752 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:50:17.762 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:50:17.771 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:50:17.919 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 12:50:17.926 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 12:50:17.955 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 12:50:17.966 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:50:17.973 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 12:50:17.981 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:17.239 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 13:37:17.384 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:37:17.392 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:37:19.440 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:37:19.476 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:19.485 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:19.492 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:19.625 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:37:19.631 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:37:21.046 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:37:21.058 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:21.064 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:21.072 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:28.125 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 13:37:28.256 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:37:28.264 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:37:29.874 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:37:29.925 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:29.932 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:29.939 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:30.068 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:37:30.075 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:37:30.899 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:37:30.910 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:30.917 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:37:30.925 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:41:02.141 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 13:41:02.273 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:41:02.280 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:41:04.173 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:41:04.208 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:41:04.214 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:41:04.222 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:41:04.371 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:41:04.378 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:41:05.828 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:41:05.840 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:41:05.848 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:41:05.859 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:50:58.298 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 13:50:58.431 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:50:58.441 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:51:00.261 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:51:00.297 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:00.304 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:00.310 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:00.493 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:51:00.500 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:51:00.522 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:51:00.533 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:00.541 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:00.549 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:09.464 INFO  DefaultFactory Logging to 'D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Publisher\bin\Debug\' with level Info
+2019-05-07 13:51:09.599 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:51:09.608 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:51:11.328 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:51:11.363 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:11.370 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:11.376 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:11.503 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 13:51:11.510 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 13:51:12.411 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 13:51:12.421 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:12.428 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 13:51:12.435 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.

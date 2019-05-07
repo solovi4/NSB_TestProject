@@ -22,6 +22,9 @@ namespace Publisher
             var senderConfig = new EndpointConfiguration("pfs-sender");
             senderConfig.SendOnly();
 
+            var conventions = senderConfig.Conventions();
+            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
+
             var routing = senderConfig.UseTransport<MsmqTransport>().Routing();
             routing.RouteToEndpoint(typeof(ReloadServicesCommand), "pfs.services");
 

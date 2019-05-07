@@ -40,6 +40,7 @@ namespace MultipleEndPointNSB
             endpointConfiguration.SendFailedMessagesTo(_errorQueue);
             endpointConfiguration.LimitMessageProcessingConcurrencyTo(_maxDop);
 
+            
             endpointConfiguration.UseContainer<AutofacBuilder>(
                 customizations: customizations =>
                 {
@@ -59,6 +60,9 @@ namespace MultipleEndPointNSB
                     var numberOfRetries = delayed.NumberOfRetries(_delayedNumberOfRetries);
                     numberOfRetries.TimeIncrease(_delayedTimeIncrease);
                 });
+
+            var conventions = endpointConfiguration.Conventions();
+            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
 
             if (_install)
                 endpointConfiguration.EnableInstallers();

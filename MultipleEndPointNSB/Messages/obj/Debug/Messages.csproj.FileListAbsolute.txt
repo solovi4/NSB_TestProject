@@ -22,3 +22,27 @@ D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\Messages\obj
 D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\Messages\obj\Debug\Messages.csproj.CopyComplete
 D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\Messages\obj\Debug\Messages.dll
 D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\Messages\obj\Debug\Messages.pdb
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Messages.dll.config
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Messages.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Messages.pdb
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Autofac.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Iesi.Collections.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Newtonsoft.Json.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NHibernate.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.Core.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.NHibernate.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.ObjectBuilder.Autofac.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Autofac.xml
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Iesi.Collections.xml
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\Newtonsoft.Json.xml
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NHibernate.xml
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.Core.pdb
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.Core.xml
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.NHibernate.pdb
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.NHibernate.xml
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.ObjectBuilder.Autofac.pdb
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\bin\Debug\NServiceBus.ObjectBuilder.Autofac.xml
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\obj\Debug\Messages.csproj.CoreCompileInputs.cache
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\obj\Debug\Messages.csproj.CopyComplete
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\obj\Debug\Messages.dll
+D:\ForGit\NSB_TestProject\MultipleEndPointNSB\Messages\obj\Debug\Messages.pdb

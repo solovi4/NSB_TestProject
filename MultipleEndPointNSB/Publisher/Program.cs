@@ -16,6 +16,7 @@ namespace Publisher
             ReAuthPublisher reAuthPublisher = new ReAuthPublisher();
             await reloadServicePublisher.Start();
             await reAuthPublisher.Start();
+            Console.WriteLine("Press any key to send messages, exept esc, esc is exit");
             while (Console.ReadKey().Key != ConsoleKey.Escape)
             {
                 await reloadServicePublisher.Send();
