@@ -37,6 +37,7 @@ namespace MultipleEndPointNSB
             var endpointConfiguration = new EndpointConfiguration(_queue);
 
             var conventions = endpointConfiguration.Conventions();
+            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
             conventions.DefiningEventsAs(Messages.Conventions.IsEvent);
 
             endpointConfiguration.UsePersistence<NHibernatePersistence>();
@@ -66,8 +67,6 @@ namespace MultipleEndPointNSB
                     var numberOfRetries = delayed.NumberOfRetries(_delayedNumberOfRetries);
                     numberOfRetries.TimeIncrease(_delayedTimeIncrease);
                 });
-
-
 
             if (_install)
                 endpointConfiguration.EnableInstallers();

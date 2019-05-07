@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Messages;
 
 namespace MultipleEndPointNSB
 {
@@ -34,13 +35,19 @@ namespace MultipleEndPointNSB
         {
             var endpointConfiguration = new EndpointConfiguration(_queue);
 
+            var conventions = endpointConfiguration.Conventions();
+            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
+            conventions.DefiningEventsAs(Messages.Conventions.IsEvent);
+
             endpointConfiguration.UsePersistence<NHibernatePersistence>();
-            endpointConfiguration.UseTransport<MsmqTransport>();
+            var msmq = endpointConfiguration.UseTransport<MsmqTransport>();
+            var routing = msmq.Routing();
+            routing.RegisterPublisher(typeof(ReAuthorizationEvent), "pfs.reauthorization");
+
             endpointConfiguration.UseSerialization<JsonSerializer>();
             endpointConfiguration.SendFailedMessagesTo(_errorQueue);
             endpointConfiguration.LimitMessageProcessingConcurrencyTo(_maxDop);
 
-            
             endpointConfiguration.UseContainer<AutofacBuilder>(
                 customizations: customizations =>
                 {
@@ -61,9 +68,6 @@ namespace MultipleEndPointNSB
                     numberOfRetries.TimeIncrease(_delayedTimeIncrease);
                 });
 
-            var conventions = endpointConfiguration.Conventions();
-            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
-
             if (_install)
                 endpointConfiguration.EnableInstallers();
 
@@ -73,7 +77,7 @@ namespace MultipleEndPointNSB
         public async Task Start(IContainer container)
         {
             var configuration = ConfigureEndpoint(container);
-            endpointInstance = await Endpoint.Start(configuration).ConfigureAwait(false);           
+            endpointInstance = await Endpoint.Start(configuration).ConfigureAwait(false);
         }
 
         public async Task Stop()
