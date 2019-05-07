@@ -12,6 +12,7 @@ namespace Publisher
     {
         static async Task Main(string[] args)
         {
+            Console.Title = "Publisher";
             ReloadServicePublisher reloadServicePublisher = new ReloadServicePublisher();
             ReAuthPublisher reAuthPublisher = new ReAuthPublisher();
             await reloadServicePublisher.Start();
@@ -21,7 +22,7 @@ namespace Publisher
             {
                 await reloadServicePublisher.Send();
                 await reAuthPublisher.Send();
-                Console.WriteLine("Sended");                
+                Console.WriteLine("Sended");
             }
             await reAuthPublisher.Stop();
             await reloadServicePublisher.Stop();

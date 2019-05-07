@@ -14,6 +14,7 @@ namespace MultipleEndPointNSB
     {
         static async Task Main(string[] args)
         {
+            Console.Title = "Receiver";
             var builder = new ContainerBuilder();
 
             ReAuthEndpointConfig reAuthEndpointConfig = ConfigReader.ReadReAuthConfig();
