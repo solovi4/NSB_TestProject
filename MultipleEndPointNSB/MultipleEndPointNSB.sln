@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleEndPointNSB", "MultipleEndPointNSB\MultipleEndPointNSB.csproj", "{E1FCF9F9-15CF-499A-8134-F50CD6B30A6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "MultipleEndPointNSB\Receiver.csproj", "{E1FCF9F9-15CF-499A-8134-F50CD6B30A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{6BEF13E3-C944-4905-A7CA-2F9358A475EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{58994C9B-1854-45F4-9EA5-45D2B9E932DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E1FCF9F9-15CF-499A-8134-F50CD6B30A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1FCF9F9-15CF-499A-8134-F50CD6B30A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1FCF9F9-15CF-499A-8134-F50CD6B30A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEF13E3-C944-4905-A7CA-2F9358A475EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEF13E3-C944-4905-A7CA-2F9358A475EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEF13E3-C944-4905-A7CA-2F9358A475EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEF13E3-C944-4905-A7CA-2F9358A475EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58994C9B-1854-45F4-9EA5-45D2B9E932DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58994C9B-1854-45F4-9EA5-45D2B9E932DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58994C9B-1854-45F4-9EA5-45D2B9E932DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58994C9B-1854-45F4-9EA5-45D2B9E932DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

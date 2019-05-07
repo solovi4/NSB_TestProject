@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
-namespace MultipleEndPointNSB
+namespace Messages
 {
     [Serializable]
-    class ReloadServicesCommand : ICommand
+    public class ReloadServicesCommand : ICommand
     {
         public int[] ServiceIds { get; set; }
     }

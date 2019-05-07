@@ -1,4 +1,6 @@
-﻿using NServiceBus;
+﻿using Autofac;
+using Messages;
+using NServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,24 +11,44 @@ namespace MultipleEndPointNSB
 {
     class EndPointReAuth
     {
-        private string _queue = "pfs.reauthorization";
-        private string _errorQueue = "pfs.reauthorization.error";
-        private int _maxDop = 8;
-        private int _immediateNumberOfRetries = 10;
-        private int _delayedNumberOfRetries = 10;
-        private TimeSpan _delayedTimeIncrease = new TimeSpan(0, 0, 20);
-        private bool _install = true;
+        private string _queue;
+        private string _errorQueue;
+        private int _maxDop;
+        private int _immediateNumberOfRetries;
+        private int _delayedNumberOfRetries;
+        private TimeSpan _delayedTimeIncrease;
+        private bool _install;
         private IEndpointInstance endpointInstance;
 
-        private EndpointConfiguration ConfigureEndpoint()
+        public EndPointReAuth(ReAuthEndpointConfig config)
+        {
+            _queue = config.Queue;
+            _errorQueue = config.ErrorQueue;
+            _maxDop = config.MaxDop;
+            _immediateNumberOfRetries = config.ImmediateNumberOfRetries;
+            _delayedNumberOfRetries = config.DelayedNumberOfRetries;
+            _delayedTimeIncrease = config.DelayedTimeIncrease;
+            _install = config.Install;
+        }
+
+
+        private EndpointConfiguration ConfigureEndpoint(IContainer container)
         {
             var endpointConfiguration = new EndpointConfiguration(_queue);
 
             endpointConfiguration.UsePersistence<NHibernatePersistence>();
-            endpointConfiguration.UseTransport<MsmqTransport>();
+            var routing = endpointConfiguration.UseTransport<MsmqTransport>().Routing();
+            routing.RegisterPublisher(typeof(ReAuthorizationEvent), _queue);
+
             endpointConfiguration.UseSerialization<JsonSerializer>();
             endpointConfiguration.SendFailedMessagesTo(_errorQueue);
             endpointConfiguration.LimitMessageProcessingConcurrencyTo(_maxDop);
+
+            endpointConfiguration.UseContainer<AutofacBuilder>(
+                customizations: customizations =>
+                {
+                    customizations.ExistingLifetimeScope(container);
+                });
 
             var recoverability = endpointConfiguration.Recoverability();
             recoverability.Immediate(
@@ -42,27 +64,16 @@ namespace MultipleEndPointNSB
                     numberOfRetries.TimeIncrease(_delayedTimeIncrease);
                 });
 
-            //var conventions = endpointConfiguration.Conventions();
-            //conventions.DefiningCommandsAs(Check);
-
-            var scanner = endpointConfiguration.AssemblyScanner();
-            scanner.ScanAssembliesInNestedDirectories = true;
-            scanner.ScanAppDomainAssemblies = true;
-
             if (_install)
                 endpointConfiguration.EnableInstallers();
 
             return endpointConfiguration;
         }
 
-        private bool Check(Type t)
-        {
-            return t.Assembly == typeof(ReAuthorizationEvent).Assembly;
-        }
 
-        public async Task Start()
+        public async Task Start(IContainer container)
         {
-            var configuration = ConfigureEndpoint();
+            var configuration = ConfigureEndpoint(container);
             endpointInstance = await Endpoint.Start(configuration).ConfigureAwait(false);
         }
 

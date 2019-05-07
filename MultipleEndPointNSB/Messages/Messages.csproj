@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E1FCF9F9-15CF-499A-8134-F50CD6B30A6E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>MultipleEndPointNSB</RootNamespace>
-    <AssemblyName>MultipleEndPointNSB</AssemblyName>
+    <ProjectGuid>{58994C9B-1854-45F4-9EA5-45D2B9E932DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Messages</RootNamespace>
+    <AssemblyName>Messages</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,10 +21,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -34,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.8.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
     </Reference>
@@ -49,6 +49,9 @@
     <Reference Include="NServiceBus.NHibernate, Version=7.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
       <HintPath>..\packages\NServiceBus.NHibernate.7.2.3\lib\net452\NServiceBus.NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="NServiceBus.ObjectBuilder.Autofac, Version=6.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus.Autofac.6.0.1\lib\net452\NServiceBus.ObjectBuilder.Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -59,17 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EndPointPfsServices.cs" />
-    <Compile Include="EndPointReAuth.cs" />
-    <Compile Include="HandlerPfsServices.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReAuthHandler.cs" />
     <Compile Include="ReAuthorizationEvent.cs" />
     <Compile Include="ReloadServicesCommand.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

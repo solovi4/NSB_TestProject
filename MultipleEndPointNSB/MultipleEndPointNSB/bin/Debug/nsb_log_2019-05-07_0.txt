@@ -1,0 +1,1360 @@
+﻿2019-05-07 10:57:45.567 INFO  DefaultFactory Logging to 'D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\' with level Info
+2019-05-07 10:57:45.689 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 10:57:45.696 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 10:57:46.121 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 10:57:46.211 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.error] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.219 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.error] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.228 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Timeouts] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.237 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Timeouts] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.244 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.TimeoutsDispatcher] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.252 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.TimeoutsDispatcher] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.260 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Retries] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.270 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Retries] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.282 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.291 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:46.316 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:57:46.324 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:57:46.334 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:57:46.568 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 10:57:46.598 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 10:57:47.334 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 10:57:47.365 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.error] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.395 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.error] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.407 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Timeouts] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.416 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Timeouts] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.426 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.TimeoutsDispatcher] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.437 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.TimeoutsDispatcher] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.449 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Retries] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.458 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Retries] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.468 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.477 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:57:47.488 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:57:47.498 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:57:47.505 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:57:47.718 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from pfs.reauthorization@OSOLOVICHENKO on message type Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2019-05-07 10:57:47.831 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:57:47.978 ERROR NServiceBus.RecoverabilityExecutor Moving message '74b51a35-2607-4aa0-9635-2ea7b7465690\61197' to the error queue 'pfs.services.error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from transport message 74b51a35-2607-4aa0-9635-2ea7b7465690\61197 ---> Newtonsoft.Json.JsonSerializationException: Type specified in JSON 'Eastwind.PFS.Messages.ReAuthorizationEvent, Eastwind.PFS.Messages' was not resolved. Path '$type', line 2, position 78.
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Recoverability\Faults\ErrorQueueSettings.cs:строка 0
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadMetadataProperties(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue, Object& newValue, String& id) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Recoverability\Faults\ErrorQueueSettings.cs:строка 0
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Recoverability\Faults\ErrorQueueSettings.cs:строка 0
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Recoverability\Faults\ErrorQueueSettings.cs:строка 0
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Recoverability\Faults\ErrorQueueSettings.cs:строка 0
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Recoverability\Faults\ErrorQueueSettings.cs:строка 0
+   в Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Recoverability\Faults\ErrorQueueSettings.cs:строка 0
+   в NServiceBus.JsonMessageSerializer.Deserialize(Stream stream, IList`1 messageTypes) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Serializers\Json\JsonMessageSerializer.cs:строка 129
+   в NServiceBus.DeserializeLogicalMessagesConnector.Extract(IncomingMessage physicalMessage) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 119
+   в NServiceBus.DeserializeLogicalMessagesConnector.ExtractWithExceptionHandling(IncomingMessage message) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 46
+   --- Конец трассировки внутреннего стека исключений ---
+   в NServiceBus.DeserializeLogicalMessagesConnector.ExtractWithExceptionHandling(IncomingMessage message) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 50
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:02.164 INFO  DefaultFactory Logging to 'D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\' with level Info
+2019-05-07 10:58:02.288 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 10:58:02.294 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 10:58:02.718 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 10:58:02.815 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.error] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.823 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.error] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.833 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Timeouts] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.842 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Timeouts] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.849 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.TimeoutsDispatcher] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.857 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.TimeoutsDispatcher] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.865 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Retries] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.874 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Retries] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.883 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.892 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:02.907 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:58:02.914 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:58:02.925 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:58:03.139 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 10:58:03.145 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 10:58:03.159 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 10:58:03.190 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.error] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.204 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.error] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.215 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Timeouts] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.223 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Timeouts] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.233 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.TimeoutsDispatcher] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.242 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.TimeoutsDispatcher] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.249 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Retries] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.256 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Retries] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.265 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.274 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 10:58:03.281 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:58:03.288 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:58:03.295 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 10:58:04.550 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from pfs.reauthorization@OSOLOVICHENKO on message type Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2019-05-07 10:58:13.756 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:13.800 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:13.895 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingMessageBehavior.<InvokeIncomingMessageMutators>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\MessageMutators\MutateInstanceMessage\MutateIncomingMessageBehavior.cs:строка 44
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в NServiceBus.UnitOfWorkBehavior.<InvokeUnitsOfWork>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\UnitOfWork\UnitOfWorkBehavior.cs:строка 62
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingTransportMessageBehavior.<InvokeIncomingTransportMessagesMutators>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\MessageMutators\MutateTransportMessage\MutateIncomingTransportMessageBehavior.cs:строка 43
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:13.897 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MutateIncomingMessageBehavior.<InvokeIncomingMessageMutators>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\MessageMutators\MutateInstanceMessage\MutateIncomingMessageBehavior.cs:строка 44
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:13.941 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:13.924 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:13.952 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:13.983 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.013 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:13.996 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.024 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.052 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.061 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.086 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.097 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.034 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.117 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.137 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.146 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.173 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.184 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.203 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.156 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.231 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.241 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.260 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.214 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.292 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.304 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.323 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.271 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.353 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.333 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.380 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.363 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.411 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.393 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message 'dc8ed43d-63ee-497b-94b2-aa46006263d4' after a delay of 00:00:20 because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = HandlerPfsServices (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReloadServicesCommand, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.HandlerPfsServices], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.HandlerPfsServices' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForPfs service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForPfs)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.422 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.460 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.498 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.518 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.528 INFO  NServiceBus.RecoverabilityExecutor Immediate Retry is going to retry message '7393f375-9efd-44e2-998a-aa4600626400' because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 10:58:14.544 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 10:58:14.555 WARN  NServiceBus.RecoverabilityExecutor Delayed Retry will reschedule message '7393f375-9efd-44e2-998a-aa4600626400' after a delay of 00:00:20 because of an exception:
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ReAuthHandler (ReflectionActivator), Services = [NServiceBus.IHandleMessages`1[[Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], MultipleEndPointNSB.ReAuthHandler], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'. (See inner exception for details.) ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MultipleEndPointNSB.ReAuthHandler' can be invoked with the available services and parameters:
+Cannot resolve parameter 'MultipleEndPointNSB.IServiceForReAuth service' of constructor 'Void .ctor(MultipleEndPointNSB.IServiceForReAuth)'.
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   в Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   в Autofac.Core.Resolving.InstanceLookup.Execute()
+   в Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   в Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   в Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   в NServiceBus.ObjectBuilder.Autofac.AutofacObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\8e90838d17a138bc\src\NServiceBus.Autofac\AutofacObjectBuilder.cs:строка 60
+   в NServiceBus.CommonObjectBuilder.Build(Type typeToBuild) в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\ObjectBuilder\Common\CommonObjectBuilder.cs:строка 33
+   в NServiceBus.LoadHandlersConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\LoadHandlersConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.DeserializeLogicalMessagesConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\DeserializeLogicalMessagesConnector.cs:строка 33
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.SubscriptionReceiverBehavior.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Routing\MessageDrivenSubscriptions\SubscriptionReceiverBehavior.cs:строка 29
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceivePerformanceDiagnosticsBehavior.<Invoke>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ReceivePerformanceDiagnosticsBehavior.cs:строка 40
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ProcessingStatisticsBehavior.<Invoke>d__0.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Performance\Statistics\ProcessingStatisticsBehavior.cs:строка 27
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransportReceiveToPhysicalMessageProcessingConnector.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\Incoming\TransportReceiveToPhysicalMessageProcessingConnector.cs:строка 37
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.MainPipelineExecutor.<Invoke>d__1.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Pipeline\MainPipelineExecutor.cs:строка 32
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.ReceiveStrategy.<TryProcessMessage>d__7.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:строка 109
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в NServiceBus.TransactionScopeStrategy.<ProcessMessage>d__2.MoveNext() в C:\BuildAgent\work\b549d46003942065\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:строка 86
+2019-05-07 11:02:07.604 INFO  DefaultFactory Logging to 'D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\' with level Info
+2019-05-07 11:02:07.717 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 11:02:07.724 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 11:02:08.155 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 11:02:08.243 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.error] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.251 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.error] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.262 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Timeouts] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.269 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Timeouts] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.278 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.TimeoutsDispatcher] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.289 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.TimeoutsDispatcher] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.297 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Retries] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.306 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services.Retries] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.316 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.326 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.services] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.341 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:02:08.351 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:02:08.358 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:02:08.583 INFO  NServiceBus.LicenseManager No valid license could be found, falling back to trial license with start date '15.01.2019'
+
+2019-05-07 11:02:08.592 WARN  NServiceBus.LicenseManager Trial for the Particular Service Platform has expired.
+2019-05-07 11:02:08.606 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'EASTWIND\o.solovichenko' to group 'Пользователи системного монитора' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Пользователи системного монитора" "EASTWIND\o.solovichenko" /add
+2019-05-07 11:02:08.630 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.error] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.643 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.error] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.655 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Timeouts] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.666 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Timeouts] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.680 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.TimeoutsDispatcher] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.693 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.TimeoutsDispatcher] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.705 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Retries] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.718 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization.Retries] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.727 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization] is running with [Все] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.740 WARN  NServiceBus.QueuePermissions Queue [private$\pfs.reauthorization] is running with [NT AUTHORITY\АНОНИМНЫЙ ВХОД] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2019-05-07 11:02:08.750 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:02:08.760 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:02:08.771 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2019-05-07 11:02:09.627 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from pfs.reauthorization@OSOLOVICHENKO on message type Messages.ReAuthorizationEvent, Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2019-05-07 11:02:09.832 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:09.868 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:29.507 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:29.549 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:30.484 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:30.488 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:30.922 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:30.926 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:31.245 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:31.247 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:31.602 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:31.606 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:32.714 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:32.716 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:33.139 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:33.141 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:33.826 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired
+2019-05-07 11:02:33.828 ERROR NServiceBus.LogErrorOnInvalidLicenseBehavior Your license has expired

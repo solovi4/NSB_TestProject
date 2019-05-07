@@ -1,19 +1,20 @@
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\MultipleEndPointNSB.exe.config
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\MultipleEndPointNSB.exe
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\MultipleEndPointNSB.pdb
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Iesi.Collections.dll
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NHibernate.dll
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.Core.dll
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.NHibernate.dll
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Iesi.Collections.xml
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NHibernate.xml
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.Core.pdb
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.Core.xml
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.NHibernate.pdb
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.NHibernate.xml
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.csproj.CoreCompileInputs.cache
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.csproj.CopyComplete
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.exe
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.pdb
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Newtonsoft.Json.dll
-D:\MyProg\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Newtonsoft.Json.xml
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\MultipleEndPointNSB.exe.config
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\MultipleEndPointNSB.exe
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\MultipleEndPointNSB.pdb
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Iesi.Collections.dll
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Newtonsoft.Json.dll
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NHibernate.dll
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.Core.dll
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.NHibernate.dll
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Iesi.Collections.xml
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\Newtonsoft.Json.xml
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NHibernate.xml
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.Core.pdb
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.Core.xml
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.NHibernate.pdb
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\bin\Debug\NServiceBus.NHibernate.xml
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.csprojAssemblyReference.cache
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.csproj.CoreCompileInputs.cache
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.csproj.CopyComplete
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.exe
+D:\ForGit\Новая папка\NSB_TestProject\MultipleEndPointNSB\MultipleEndPointNSB\obj\Debug\MultipleEndPointNSB.pdb

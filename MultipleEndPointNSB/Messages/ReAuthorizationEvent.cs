@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
-namespace MultipleEndPointNSB
+namespace Messages
 {
     [Serializable]
-    class ReAuthorizationEvent : IEvent
+    public class ReAuthorizationEvent : IEvent
     {
         public int ContractId { get; set; }
 

@@ -1,4 +1,5 @@
-﻿using NServiceBus;
+﻿using Messages;
+using NServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,16 @@ namespace MultipleEndPointNSB
 {
     class HandlerPfsServices : IHandleMessages<ReloadServicesCommand>
     {
-        public Task Handle(ReloadServicesCommand message, IMessageHandlerContext context)
+        IServiceForPfs service;
+        public HandlerPfsServices(IServiceForPfs service)
         {
-            Console.WriteLine($"ReloadServiceCommandRecieved {string.Concat(message.ServiceIds.Select(id => id.ToString() + " "))}");
-            return Task.FromResult(true);
+            this.service = service;
+        }
+
+        public async Task Handle(ReloadServicesCommand message, IMessageHandlerContext context)
+        {
+            service.Send(message);
+            await Task.FromResult(true);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using NServiceBus;
+﻿using Messages;
+using NServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,14 @@ namespace MultipleEndPointNSB
 {
     class ReAuthHandler : IHandleMessages<ReAuthorizationEvent>
     {
+        private IServiceForReAuth service;
+        public ReAuthHandler(IServiceForReAuth service)
+        {
+            this.service = service;
+        }
         public Task Handle(ReAuthorizationEvent message, IMessageHandlerContext context)
         {
-            Console.WriteLine($"ReAuth received contract = {message.ContractId} service = {message.ServiceId} subscriber = {message.SubscriberId}");
+            service.Write(message);
             return Task.FromResult(true);
         }
     }
