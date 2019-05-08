@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Messages.Interfaces;
-using Newtonsoft.Json.Linq;
 
-namespace Messages
+namespace MySystem
 {
     [Serializable]
-    public class ReAuthorizationEvent : IEvent
+    [Event]
+    public class ReAuthorization
     {
         public int ContractId { get; set; }
 

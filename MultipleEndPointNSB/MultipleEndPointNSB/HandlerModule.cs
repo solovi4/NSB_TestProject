@@ -1,11 +1,6 @@
 ﻿using Autofac;
 using Messages;
 using NServiceBus;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MultipleEndPointNSB
 {
@@ -15,12 +10,12 @@ namespace MultipleEndPointNSB
         {            
 
             builder.RegisterType<ReAuthHandler>()
-                .As<IHandleMessages<ReAuthorizationEvent>>()
+                .As<IHandleMessages<MySystem.ReAuthorization>>()
                 .AsSelf()
                 .SingleInstance();
 
             builder.RegisterType<HandlerPfsServices>()
-                .As<IHandleMessages<ReloadServicesCommand>>()
+                .As<IHandleMessages<MySystem.ReloadServices>>()
                 .AsSelf()
                 .SingleInstance();
         }

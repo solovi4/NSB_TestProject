@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using Autofac;
-using Autofac.Core;
-using NServiceBus;
 
 namespace MultipleEndPointNSB
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main()
         {
+            Console.Title = "Receiver";
             var builder = new ContainerBuilder();
 
             ReAuthEndpointConfig reAuthEndpointConfig = ConfigReader.ReadReAuthConfig();
@@ -32,13 +27,13 @@ namespace MultipleEndPointNSB
             var endPointReAuth = container.Resolve<EndPointReAuth>();
 
             
-            await endPointPfsServices.Start(container);
-            await endPointReAuth.Start(container);
+            await endPointPfsServices.Start(container).ConfigureAwait(false);
+            await endPointReAuth.Start(container).ConfigureAwait(false);
 
             Console.ReadLine();
 
-            await endPointReAuth.Stop();
-            await endPointPfsServices.Stop();
+            await endPointReAuth.Stop().ConfigureAwait(false);
+            await endPointPfsServices.Stop().ConfigureAwait(false);
         }
 
         

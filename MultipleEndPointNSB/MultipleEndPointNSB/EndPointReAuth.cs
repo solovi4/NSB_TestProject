@@ -2,9 +2,6 @@
 using Messages;
 using NServiceBus;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MultipleEndPointNSB
@@ -36,12 +33,11 @@ namespace MultipleEndPointNSB
         {
             var endpointConfiguration = new EndpointConfiguration(_queue);
 
-            var conventions = endpointConfiguration.Conventions();
-            conventions.DefiningEventsAs(Messages.Conventions.IsEvent);
+            endpointConfiguration.Conventions().Apply();
 
             endpointConfiguration.UsePersistence<NHibernatePersistence>();
             var routing = endpointConfiguration.UseTransport<MsmqTransport>().Routing();
-            routing.RegisterPublisher(typeof(ReAuthorizationEvent), _queue);
+            routing.RegisterPublisher(typeof(MySystem.ReAuthorization), _queue);
 
             endpointConfiguration.UseSerialization<JsonSerializer>();
             endpointConfiguration.SendFailedMessagesTo(_errorQueue);
@@ -67,8 +63,6 @@ namespace MultipleEndPointNSB
                     numberOfRetries.TimeIncrease(_delayedTimeIncrease);
                 });
 
-
-
             if (_install)
                 endpointConfiguration.EnableInstallers();
 
@@ -82,9 +76,9 @@ namespace MultipleEndPointNSB
             endpointInstance = await Endpoint.Start(configuration).ConfigureAwait(false);
         }
 
-        public async Task Stop()
+        public Task Stop()
         {
-            await endpointInstance.Stop();
+            return endpointInstance.Stop();
         }
     }
 }

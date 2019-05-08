@@ -1,9 +1,5 @@
 ﻿using Messages;
 using NServiceBus;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Publisher
@@ -12,21 +8,16 @@ namespace Publisher
     {
         private int[] serviceIds = { 800, 520, 660 };
         private IEndpointInstance endpoint;
-        public ReloadServicePublisher()
-        {
-
-        }
 
         private EndpointConfiguration ConfigureEndpoint()
         {
             var senderConfig = new EndpointConfiguration("pfs-sender");
             senderConfig.SendOnly();
 
-            var conventions = senderConfig.Conventions();
-            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
+            senderConfig.Conventions().Apply();
 
             var routing = senderConfig.UseTransport<MsmqTransport>().Routing();
-            routing.RouteToEndpoint(typeof(ReloadServicesCommand), "pfs.services");
+            routing.RouteToEndpoint(typeof(MySystem.ReloadServices), "pfs.services");
 
             senderConfig.UsePersistence<NHibernatePersistence>();
             senderConfig.UseSerialization<JsonSerializer>();
@@ -41,14 +32,14 @@ namespace Publisher
             endpoint = await Endpoint.Start(config).ConfigureAwait(false);
         }
 
-        public async Task Stop()
+        public Task Stop()
         {
-            await endpoint.Stop();
+            return endpoint.Stop();
         }
 
-        public async Task Send()
+        public Task Send()
         {
-            await endpoint.Send(new ReloadServicesCommand { ServiceIds = serviceIds }).ConfigureAwait(false);            
+            return endpoint.Send(new MySystem.ReloadServices {ServiceIds = serviceIds});
         }
 
 
