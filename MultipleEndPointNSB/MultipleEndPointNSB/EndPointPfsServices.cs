@@ -32,14 +32,12 @@ namespace MultipleEndPointNSB
         {
             var endpointConfiguration = new EndpointConfiguration(_queue);
 
-            var conventions = endpointConfiguration.Conventions();
-            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
-            conventions.DefiningEventsAs(Messages.Conventions.IsEvent);
+            endpointConfiguration.Conventions().Apply();
 
             endpointConfiguration.UsePersistence<NHibernatePersistence>();
             var msmq = endpointConfiguration.UseTransport<MsmqTransport>();
             var routing = msmq.Routing();
-            routing.RegisterPublisher(typeof(ReAuthorizationEvent), "pfs.reauthorization");
+            routing.RegisterPublisher(typeof(MySystem.ReAuthorization), "pfs.reauthorization");
 
             endpointConfiguration.UseSerialization<JsonSerializer>();
             endpointConfiguration.SendFailedMessagesTo(_errorQueue);

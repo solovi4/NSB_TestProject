@@ -1,10 +1,11 @@
 ﻿using System;
 using Messages.Interfaces;
 
-namespace Messages
+namespace MySystem
 {
     [Serializable]
-    public class ReAuthorizationEvent : IEvent
+    [Event]
+    public class ReAuthorization
     {
         public int ContractId { get; set; }
 

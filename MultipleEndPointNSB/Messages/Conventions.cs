@@ -1,30 +1,22 @@
 ﻿using Messages.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Reflection;
+using NServiceBus;
 
-namespace Messages
+public static class Conventions
 {
-    public static class Conventions
+    static bool IsEvent(Type t)
     {
-        private static readonly List<Assembly> assemblies = new List<Assembly> {
-            typeof(ReAuthorizationEvent).Assembly,
-            typeof(ReloadServicesCommand).Assembly
-        };
+        return t != null && t.IsDefined(typeof(EventAttribute), true);
+    }
 
-        public static bool IsEvent(Type t)
-        {
-            return assemblies.Contains(t.Assembly)
-                   && typeof(IEvent).IsAssignableFrom(t)
-                   && !t.IsAbstract;
-        }
+    static bool IsCommand(Type t)
+    {
+        return t != null && t.IsDefined(typeof(CommandAttribute), true);
+    }
 
-
-        public static bool IsCommand(Type t)
-        {
-            return assemblies.Contains(t.Assembly)
-                   && typeof(ICommand).IsAssignableFrom(t)
-                   && !t.IsAbstract;
-        }
+    public static void Apply(this ConventionsBuilder instance)
+    {
+        instance.DefiningEventsAs(IsEvent);
+        instance.DefiningCommandsAs(IsCommand);
     }
 }

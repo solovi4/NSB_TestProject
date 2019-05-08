@@ -16,10 +16,9 @@ namespace Publisher
            
 
             var routing = senderConfig.UseTransport<MsmqTransport>().Routing();
-            routing.RouteToEndpoint(typeof(ReAuthorizationEvent), "pfs.reauthorization");
+            routing.RouteToEndpoint(typeof(MySystem.ReAuthorization), "pfs.reauthorization");
 
-            var conventions = senderConfig.Conventions();
-            conventions.DefiningEventsAs(Messages.Conventions.IsEvent);
+            senderConfig.Conventions().Apply();
 
             senderConfig.UsePersistence<NHibernatePersistence>();
             senderConfig.UseSerialization<JsonSerializer>();
@@ -30,7 +29,7 @@ namespace Publisher
 
         public Task Send()
         {
-            return endpoint.Publish(new ReAuthorizationEvent() { ContractId = 30, ServiceId = 40, SubscriberId = 50 });
+            return endpoint.Publish(new MySystem.ReAuthorization { ContractId = 30, ServiceId = 40, SubscriberId = 50 });
         }
 
         public async Task Start()

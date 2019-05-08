@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace MultipleEndPointNSB
 {
-    class HandlerPfsServices : IHandleMessages<ReloadServicesCommand>
+    class HandlerPfsServices : IHandleMessages<MySystem.ReloadServices>
     {
         IServiceForPfs service;
         public HandlerPfsServices(IServiceForPfs service)
@@ -12,7 +12,7 @@ namespace MultipleEndPointNSB
             this.service = service;
         }
 
-        public Task Handle(ReloadServicesCommand message, IMessageHandlerContext context)
+        public Task Handle(MySystem.ReloadServices message, IMessageHandlerContext context)
         {
             service.Send(message);
             return Task.CompletedTask;

@@ -1,10 +1,11 @@
 ﻿using System;
 using Messages.Interfaces;
 
-namespace Messages
+namespace MySystem
 {
     [Serializable]
-    public class ReloadServicesCommand : ICommand
+    [Command]
+    public class ReloadServices
     {
         public int[] ServiceIds { get; set; }
     }

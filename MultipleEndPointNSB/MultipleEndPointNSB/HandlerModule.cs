@@ -10,12 +10,12 @@ namespace MultipleEndPointNSB
         {            
 
             builder.RegisterType<ReAuthHandler>()
-                .As<IHandleMessages<ReAuthorizationEvent>>()
+                .As<IHandleMessages<MySystem.ReAuthorization>>()
                 .AsSelf()
                 .SingleInstance();
 
             builder.RegisterType<HandlerPfsServices>()
-                .As<IHandleMessages<ReloadServicesCommand>>()
+                .As<IHandleMessages<MySystem.ReloadServices>>()
                 .AsSelf()
                 .SingleInstance();
         }

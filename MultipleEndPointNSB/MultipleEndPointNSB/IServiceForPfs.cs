@@ -4,6 +4,6 @@ namespace MultipleEndPointNSB
 {
     interface IServiceForPfs
     {
-        void Send(ReloadServicesCommand reloadServicesCommand);
+        void Send(MySystem.ReloadServices reloadServicesCommand);
     }
 }

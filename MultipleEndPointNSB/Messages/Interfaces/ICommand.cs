@@ -1,6 +1,12 @@
-﻿namespace Messages.Interfaces
+﻿using System;
+
+namespace Messages.Interfaces
 {
-    interface ICommand
+    public class EventAttribute : Attribute
+    {
+    }
+
+    public class CommandAttribute : Attribute
     {
     }
 }

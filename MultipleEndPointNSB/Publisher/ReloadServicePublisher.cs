@@ -14,11 +14,10 @@ namespace Publisher
             var senderConfig = new EndpointConfiguration("pfs-sender");
             senderConfig.SendOnly();
 
-            var conventions = senderConfig.Conventions();
-            conventions.DefiningCommandsAs(Messages.Conventions.IsCommand);
+            senderConfig.Conventions().Apply();
 
             var routing = senderConfig.UseTransport<MsmqTransport>().Routing();
-            routing.RouteToEndpoint(typeof(ReloadServicesCommand), "pfs.services");
+            routing.RouteToEndpoint(typeof(MySystem.ReloadServices), "pfs.services");
 
             senderConfig.UsePersistence<NHibernatePersistence>();
             senderConfig.UseSerialization<JsonSerializer>();
@@ -40,7 +39,7 @@ namespace Publisher
 
         public Task Send()
         {
-            return endpoint.Send(new ReloadServicesCommand {ServiceIds = serviceIds});
+            return endpoint.Send(new MySystem.ReloadServices {ServiceIds = serviceIds});
         }
 
 
